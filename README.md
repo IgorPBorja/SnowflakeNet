@@ -63,12 +63,12 @@ under widely used benchmarks.
 ```bash
 # python environment
 $ cd SnowflakeNet
-$ conda create -n spd python=3.7
+$ conda create -n spd python=3.11
 $ conda activate spd
 $ pip3 install -r requirements.txt
 
 # pytorch
-$ pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+$ pip3 install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 
