@@ -2,7 +2,7 @@ argparse
 easydict
 h5py
 matplotlib
-numpy
+numpy==1.26.*
 open3d==0.18.0
 opencv-python
 scipy

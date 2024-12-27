@@ -7,3 +7,4 @@ loss_functions/Chamfer3D/dist
 loss_functions/emd/*.egg-info
 loss_functions/emd/build
 loss_functions/emd/dist
+__pycache__
